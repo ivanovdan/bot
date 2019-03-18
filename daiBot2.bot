@@ -1,0 +1,71 @@
+{
+    "name": "daiBot2",
+    "description": "",
+    "services": [
+        {
+            "type": "abs",
+            "appId": "1ff05846-1950-4efb-8759-de509871282c",
+            "id": "1",
+            "name": "daiBot2",
+            "resourceGroup": "ams-devg-0-res-mediadns-1-1",
+            "serviceName": "daiBot2",
+            "subscriptionId": "527f4944-7b73-4278-bf9b-696a38c65433",
+            "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47"
+        },
+        {
+            "type": "blob",
+            "connectionString": "bopShbm+yJ4MCQh8f5GRuQ==!Mm6N6F9PRItqDQIKHCsuy14LXt/QenV7sGkMpr7MRrlC67y48WvmbhDBgfXC7MJ+cXeHs+x1XYoSVe8ptEyXrG0s4cVxD4WzcyiqnEgCyUCo8JgY0oQvIo/FRo6ksJNw9Ggz0MFmOChTi4KgZ4oGnI01kRcX16HhUt0jNjOilSscCnxng7cpFu4Ghyk1WZVQj7iNe1HK4GmIjtsqURnXrw==",
+            "id": "2",
+            "resourceGroup": "ams-devg-0-res-mediadns-1-1",
+            "serviceName": "daibot2a5e4",
+            "subscriptionId": "527f4944-7b73-4278-bf9b-696a38c65433",
+            "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47"
+        },
+        {
+            "type": "endpoint",
+            "appId": "",
+            "appPassword": "",
+            "endpoint": "http://localhost:3978/api/messages",
+            "id": "3",
+            "name": "development"
+        },
+        {
+            "type": "endpoint",
+            "appId": "1ff05846-1950-4efb-8759-de509871282c",
+            "appPassword": "pcIlEE2eyPgtyscoMkmaoQ==!e2Y+/lXvXg56Zf4rn9nuJj4oQ1QjUpFzNWySRHCZVI8=",
+            "endpoint": "https://daibot2.azurewebsites.net/api/messages",
+            "id": "4",
+            "name": "production"
+        },
+        {
+            "type": "appInsights",
+            "apiKeys": {},
+            "applicationId": "de051c05-5fb8-4591-916f-949bec72e541",
+            "id": "5",
+            "instrumentationKey": "D/GlFYvEt9gx81TDPtC1Kg==!RqXnsDeTrm6eL98Ivtvn0KCl9n6x421yBvYhsy+nFWBIB4b2tPZ/kql1RL5rRN+V",
+            "resourceGroup": "ams-devg-0-res-mediadns-1-1",
+            "serviceName": "daiBot2kpxkjc",
+            "subscriptionId": "527f4944-7b73-4278-bf9b-696a38c65433",
+            "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47"
+        },
+        {
+            "type": "luis",
+            "appId": "b3f53ba0-9792-4429-8291-a24b9216d9dc",
+            "authoringKey": "OsRodNPy+0GjF+AurqtfVw==!iilUFJ3W1gLNz2a0xwvEjQcHMBhV/tHyALH08f81uWLGBR83eqFGlEcbgB/zh0Aw",
+            "id": "6",
+            "name": "BasicBotLuisApplication",
+            "region": "westus",
+            "version": "0.1"
+        },
+        {
+            "type": "endpoint",
+            "endpoint": "http://localhost:31089/api/messages",
+            "name": "botAPI",
+            "id": "124"
+        }
+    ],
+    "padlock": "ioxDGOAKGAvgy1cBjWafLA==!2b1BsoFKq+kF5PlKtwyF2926kCkhTPXB1pW64gmP3yVkpygESO3hsTuIvWtU57vl",
+    "version": "2.0",
+    "path": "C:\\daiBot2\\daiBot2.bot",
+    "overrides": null
+}
